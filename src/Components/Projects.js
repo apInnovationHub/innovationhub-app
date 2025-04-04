@@ -1,10 +1,12 @@
+import Image from 'next/image';
+
 export default function Projects() {
     return (
       <section className="projects">
         <h2>See Our Successful Projects</h2>
         <div className="project-images">
           <div className="project">
-            <img
+            <Image
               src="/images/eneticket.png"
               alt="Eneticket Project"
               className="project-image large"
@@ -17,7 +19,7 @@ export default function Projects() {
           </div>
 
           <div className="project">
-            <img
+            <Image
               src="/images/fixchirp_snip.jpg"
               alt="Fixchirp Project"
               className="project-image"

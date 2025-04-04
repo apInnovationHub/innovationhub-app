@@ -1,10 +1,12 @@
+import Image from 'next/image';
+
 export default function WhyUs() {
     return (
       <section className="why-us">
         <h2>Why All Peoples Innovation Hub</h2>
         <div className="cards">
           <div className="card">
-            <img
+            <Image
               src="/images/product-prototyping-icon.png"
               alt="Product Prototyping Icon"
               className="icon"
@@ -16,7 +18,7 @@ export default function WhyUs() {
             </p>
           </div>
           <div className="card">
-            <img
+            <Image
               src="/images/partnership-development-icon.png"
               alt="Partnership Development Icon"
               className="icon"
@@ -28,7 +30,7 @@ export default function WhyUs() {
             </p>
           </div>
           <div className="card">
-            <img
+            <Image
               src="/images/marketing-branding-icon.png"
               alt="Marketing & Branding Icon"
               className="icon"

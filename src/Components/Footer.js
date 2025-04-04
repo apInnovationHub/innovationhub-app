@@ -1,7 +1,9 @@
+import Image from 'next/image';
+
 export default function Footer() {
     return (
       <footer className="footer">
-      
+
       <div className="newsletter">
       <h3>Subscribe to Our Newsletter</h3>
       <div className="contact-info">
@@ -22,19 +24,19 @@ export default function Footer() {
       <h3>Social Media</h3>
       <div className="social-links">
       <a href="https://web.facebook.com/profile.php?id=61575020368447" className="social-link" target="_blank" rel="noopener noreferrer">
-      <img src="images/facebook-icon.png" alt="Facebook" className="icon icon-size" /> Facebook
+      <Image src="images/facebook-icon.png" alt="Facebook" className="icon icon-size" /> Facebook
       </a>
       <a href="https://x.com/allpeoples_IH" className="social-link" target="_blank" rel="noopener noreferrer">
-      <img src="images/twitter-icon.png" alt="Twitter" className="icon icon-size" /> Twitter......
+      <Image src="images/twitter-icon.png" alt="Twitter" className="icon icon-size" /> Twitter......
       </a>
       <a href="https://www.instagram.com/allpeoplesinnovationhub" className="social-link" target="_blank" rel="noopener noreferrer">
-      <img src="images/instagram-icon.png" alt="Instagram" className="icon icon-size" /> Instagram
+      <Image src="images/instagram-icon.png" alt="Instagram" className="icon icon-size" /> Instagram
       </a>
       <a href="https://www.tiktok.com/@allpeoples_innovationhub" className="social-link" target="_blank" rel="noopener noreferrer">
-      <img src="images/tiktok-icon.png" alt="TikTok" className="icon icon-size" /> TikTok......
+      <Image src="images/tiktok-icon.png" alt="TikTok" className="icon icon-size" /> TikTok......
       </a>
       <a href="https://www.linkedin.com/in/all-peoples-innovation-hub-06696a358?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="social-link" target="_blank" rel="noopener noreferrer">
-      <img src="images/linkedin-icon.png" alt="LinkedIn" className="icon icon-size" /> LinkedIn..
+      <Image src="images/linkedin-icon.png" alt="LinkedIn" className="icon icon-size" /> LinkedIn..
       </a>
       </div>
       </div>

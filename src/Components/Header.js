@@ -1,6 +1,7 @@
 "use client"; // Add this directive at the top
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 
 export default function Header() {
@@ -14,7 +15,7 @@ export default function Header() {
     <header className="header">
       <div className="logo">
         <Link href="/">
-          <img src="/images/logo-icon.png" alt="All Peoples Innovation Hub Logo" />
+          <Image src="/images/apih-icon.svg" alt="All Peoples Innovation Hub Logo" />
         </Link>
       </div>
       <button className="hamburger" onClick={toggleMenu}>
