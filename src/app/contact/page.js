@@ -50,7 +50,8 @@ export default function Contact() {
                 window.location.href = mailtoLink;
               }}
             >
-              <input type="text" name="fullName" placeholder="Full Name" required />
+              <label htmlFor="contactFullName">Full Name</label>
+              <input id="fullNameInput" type="text" name="fullName" placeholder="Full Name" required />
               <label htmlFor="email">Email</label>
               <input id="email" type="email" name="email" placeholder="Email" required />
               <textarea name="message" placeholder="Your Message" rows="5" required></textarea>

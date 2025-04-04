@@ -27,48 +27,47 @@ export default function Projects() {
         </p>
       </section>
 
-      {/* Projects Section */}
       <section className="projects-section">
-        <h2>Our Success Stories</h2>
-        <div className="projects-grid">
-          {[
-            {
-              id: 1,
-              img: "/images/eneticket.png",
-              title: "Eneticket",
-              description:
-                "A seamless digital platform for event ticketing, Eneticket simplifies the process for organizers and attendees. We supported Eneticket through product prototyping and marketing strategies, helping them reach a wider audience and streamline operations.",
-            },
-            {
-              id: 2,
-              img: "/images/e-clinic.png",
-              title: "E-clinic",
-              description:
-                "E-clinic revolutionizes healthcare access with an online platform for consultations and medical records. Our team provided partnership development and technical guidance to ensure a user-friendly experience and scalability.",
-            },
-            {
-              id: 3,
-              img: "/images/fixchirp.png",
-              title: "Fixchirp",
-              description:
-                "Fixchirp connects users with local service providers for quick and reliable home solutions. We assisted with market research and branding, enabling Fixchirp to establish a strong presence in the local market.",
-            },
-            
-          ].map((project) => (
-            <div key={project.id} className="project-card">
-              <div className="project-image-wrapper">
-                <img src={project.img} alt={project.title} />
-              </div>
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
-            <a href="https://eneticket.com/" target="_blank" rel="noopener noreferrer">
-                <button className="see-more">See More</button>
-            </a>
-              
+      <h2>Our Success Stories</h2>
+      <div className="projects-grid">
+        {[
+          {
+            id: 1,
+            img: "/images/eneticket.png",
+            title: "Eneticket",
+            description:
+              "A seamless digital platform for event ticketing, Eneticket simplifies the process for organizers and attendees. We supported Eneticket through product prototyping and marketing strategies, helping them reach a wider audience and streamline operations.",
+          },
+          {
+            id: 2,
+            img: "/images/e-clinic.png",
+            title: "E-clinic",
+            description:
+              "E-clinic revolutionizes healthcare access with an online platform for consultations and medical records. Our team provided partnership development and technical guidance to ensure a user-friendly experience and scalability.",
+          },
+          {
+            id: 3,
+            img: "/images/fixchirp.png",
+            title: "Fixchirp",
+            description:
+              "Fixchirp connects users with local service providers for quick and reliable home solutions. We assisted with market research and branding, enabling Fixchirp to establish a strong presence in the local market.",
+          },
+        ].map((project) => (
+          <div key={project.id} className="project-card">
+            <div className="project-image-wrapper">
+              <img src={project.img} alt={project.title} />
             </div>
-          ))}
-        </div>
-      </section>
+            <h3>{project.title}</h3>
+            <p>{project.description}</p>
+            {project.id === 1 && ( // Only show the button for Eneticket (id: 1)
+              <a href="https://eneticket.com/" target="_blank" rel="noopener noreferrer">
+                <button className="see-more">See More</button>
+              </a>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
 
       {/* Call to Action Section */}
       <section className="call-to-action">
