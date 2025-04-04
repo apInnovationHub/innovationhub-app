@@ -15,7 +15,7 @@ export default function Header() {
     <header className="header">
       <div className="logo">
         <Link href="/">
-          <Image src="/images/apih-icon.svg" alt="All Peoples Innovation Hub Logo" />
+          <Image height="82" width="150" src="/images/apih-icon.svg" alt="All Peoples Innovation Hub Logo" />
         </Link>
       </div>
       <button className="hamburger" onClick={toggleMenu}>

@@ -6,7 +6,7 @@ export default function WhyUs() {
         <h2>Why All Peoples Innovation Hub</h2>
         <div className="cards">
           <div className="card">
-            <Image
+            <img
               src="/images/product-prototyping-icon.png"
               alt="Product Prototyping Icon"
               className="icon"
@@ -18,7 +18,7 @@ export default function WhyUs() {
             </p>
           </div>
           <div className="card">
-            <Image
+            <img
               src="/images/partnership-development-icon.png"
               alt="Partnership Development Icon"
               className="icon"
