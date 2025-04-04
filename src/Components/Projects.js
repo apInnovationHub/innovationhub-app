@@ -15,10 +15,10 @@ export default function Projects() {
               </a>
             </h3>
           </div>
-        
+
           <div className="project">
             <img
-              src="/images/fixchirp.png"
+              src="/images/fixchirp_snip.jpg"
               alt="Fixchirp Project"
               className="project-image"
             />
