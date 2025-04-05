@@ -1,5 +1,5 @@
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import Link from 'next/link';
 
 export default function About() {
@@ -39,7 +39,7 @@ export default function About() {
             <img src="/images/daniel-chima.jpg" alt="Daniel Chima" className="team-member-image" />
             <h3>Daniel R Chima</h3>
             <p>CyberSecurity Specialist</p>
-           
+
           </div>
           <div className="team-member">
             <img src="/images/joana-botha.jpg" alt="Joanna Botha" className="team-member-image" />

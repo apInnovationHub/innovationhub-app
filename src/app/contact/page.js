@@ -1,7 +1,7 @@
 "use client";
 
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export default function Contact() {
   return (
@@ -25,7 +25,7 @@ export default function Contact() {
               Blantyre<br />
               Malawi
             </p>
-           
+
             <div className="contact-details">
               <div className="contact-item">
                 <span className="icon">✉️</span>
