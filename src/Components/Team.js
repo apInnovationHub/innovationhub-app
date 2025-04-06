@@ -8,7 +8,7 @@ export default function Team() {
         </div>
         <div className="team-members">
           <div className="member">
-          <Image
+          <img
               src="/images/Tadala.jpg"
               alt="Tadala Nchembe, Executive Assistant"
               className="member-image"
@@ -17,7 +17,7 @@ export default function Team() {
             <p>Executive Assistant</p>
           </div>
           <div className="member">
-            <Image
+            <img
               src="/images/Asante.jpg"
               alt="Asante, Chief Executive Officer"
               className="member-image"
@@ -26,7 +26,7 @@ export default function Team() {
             <p>Chief Executive Officer</p>
           </div>
           <div className="member">
-          <Image
+          <img
                src="/images/Mr_Nchembe.jpg"
                alt="Mr_Nchembe, The Director"
                className="member-image"

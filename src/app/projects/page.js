@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
+import Header from 'src/components/Header';
+import Footer from 'src/components/Footer';
 
 export default function Projects() {
   return (
@@ -47,7 +47,7 @@ export default function Projects() {
           },
           {
             id: 3,
-            img: "/images/fixchirp.png",
+            img: "/images/fixchirp_snip.jpg",
             title: "Fixchirp",
             description:
               "Fixchirp connects users with local service providers for quick and reliable home solutions. We assisted with market research and branding, enabling Fixchirp to establish a strong presence in the local market.",

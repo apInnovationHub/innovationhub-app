@@ -30,7 +30,7 @@ export default function WhyUs() {
             </p>
           </div>
           <div className="card">
-            <Image
+            <img
               src="/images/marketing-branding-icon.png"
               alt="Marketing & Branding Icon"
               className="icon"

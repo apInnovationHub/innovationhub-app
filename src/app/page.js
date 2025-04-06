@@ -1,9 +1,9 @@
-import Header from '../../components/Header';
-import Hero from '../../components/Hero';
-import WhyUs from '../../components/WhyUs';
-import Team from '../../components/Team';
-import Projects from '../../components/Projects';
-import Footer from '../../components/Footer';
+import Header from 'src/components/Header';
+import Hero from 'src/components/Hero';
+import WhyUs from 'src/components/WhyUs';
+import Team from 'src/components/Team';
+import Projects from 'src/components/Projects';
+import Footer from 'src/components/Footer';
 
 export default function Home() {
   return (
