@@ -5,20 +5,6 @@ export default function Footer() {
   return (
     <footer className="footer">
 
-      <div className="newsletter">
-        <h3>Subscribe to Our Newsletter</h3>
-        <div className="contact-info">
-          <div className="contact-item">
-            <RiMailFill widths={32} />
-            <p>allpeoplesfinancelimited@outlook.com</p>
-          </div>
-          <div className="contact-item">
-            <RiPhoneFill widths={32} />
-            <p>+265 801 469 9985</p>
-          </div>
-        </div>
-      </div>
-
       {
         <div className="footer-content">
           <div className="social-media">
